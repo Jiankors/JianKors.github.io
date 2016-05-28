@@ -4,7 +4,7 @@ title:  "Build Caffe with Visual Studio 2013 on Windows 7 x64 using Cuda 7.0"
 date:   2015-04-01 13:37:00
 tags:	[Deep Learning, caffe, Visual Studio 2013, Cuda 7.0 ]
 categories: [Caffe]
-comments: true
+comments: false
 ---
 
 * Contents:
