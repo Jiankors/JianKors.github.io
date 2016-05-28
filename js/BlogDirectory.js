@@ -88,7 +88,7 @@ var BlogDirectory = {
 
         var nodes = article_body_element.find("h1,h2,h3");
         var ulSideNav = side_nav_element;
-		ulSideNav.append("<h1 style="padding-top: 40px; margin-top: -40px;"><a href=#top>Contents</a><br/><h1>");
+		ulSideNav.append("<h1><a href=#top>Contents</a><br/><h1>");
 
         jQuery.each(nodes,function(){
 			$this = jQuery(this);
