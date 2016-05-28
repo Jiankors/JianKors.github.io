@@ -9,6 +9,7 @@ body {
 }
 
 .footer {
+   padding-top:10px;
    background-color:#00c;
    text-align: center;
 }
