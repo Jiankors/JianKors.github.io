@@ -4,11 +4,12 @@ body {
 }
 
 .copyright {
+	background-color:#fff;
     color: #ffffff;
 }
 
 .footer {
-	margin:0 auto;
+	
     text-align: center;
 }
 
