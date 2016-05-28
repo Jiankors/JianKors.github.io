@@ -98,8 +98,7 @@
 
 /* First level of nav */
 .bs-docs-sidenav {
-  padding-top: 80px;
-  margin-top: -45px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -330,7 +329,7 @@ body {
 
 .markdown-body .anchor{
   position:absolute;
-  top:0;
+  top:30;
   bottom:0;
   left:0;
   display:block;
