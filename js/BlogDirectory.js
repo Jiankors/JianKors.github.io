@@ -5,9 +5,9 @@
 jQuery.noConflict();
 jQuery(document).ready(function(){
     var backToTopTxt = "▲", backToTopEle = jQuery('<div class="backToTop"></div>').appendTo(jQuery("body")).text(backToTopTxt).attr("title","Back to Top").click(function() {
-        jQuery("html, body").animate({ scrollTop: 100 }, 120);
+        jQuery("html, body").animate({ scrollTop: 0 }, 120);
     }), backToTopFun = function() {
-        var st = jQuery(document).scrollTop(), winh = jQuery(window).height();
+        var st = jQuery(document).scrollTop()+50, winh = jQuery(window).height();
         (st > 200)? backToTopEle.show(): backToTopEle.hide();    
         //IE6下的定位
         if (!window.XMLHttpRequest) {
