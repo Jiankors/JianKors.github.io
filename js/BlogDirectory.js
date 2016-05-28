@@ -147,5 +147,5 @@ jQuery(document).ready(function(){
         BlogDirectory.createBlogDirectory(jQuery("#sideNav"), jQuery(".bs-docs-container"));
 
         // caculate affixing
-        //BlogDirectory.setSideNavAffixing();
+        BlogDirectory.setSideNavAffixing();
 });
