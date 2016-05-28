@@ -4,7 +4,7 @@ name: JianKors' blog
 description: learning and sharing interesting things
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://safeking.github.io/
+url: http://jiankors.github.io/
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -13,7 +13,7 @@ url: http://safeking.github.io/
 baseurl: 
 
 # This can be '' to hide the Github nav button
-github: 'safeking/safeking.github.io'
+github: 'Jiankors/Jiankors.github.io'
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
