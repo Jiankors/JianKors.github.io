@@ -55,9 +55,9 @@ var BlogDirectory = {
                     top: function () {
                         var offsetTop      = $sideBar.offset().bottom;
                         var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 10)
-                        var navOuterHeight = jQuery('.bs-docs-bar-top').height()
+                        var navOuterHeight = jQuery('.bs-docs-bar-top').height()+100;
 
-                        return (this.top = offsetTop - navOuterHeight - sideBarMargin -150)
+                        return (this.top = offsetTop - navOuterHeight - sideBarMargin)
                     },
                     bottom: function () {
                         return (this.bottom = 0 - jQuery('.bs-docs-container').outerHeight(true))
