@@ -22,6 +22,12 @@ body {
     padding-bottom: 60px;
 }
 
+
+.my-target {
+    padding-top: 65px;
+    margin-top: -65px;
+}
+
 .copyright {
 	color: #ffffff;
 	margin-bottom:0;
