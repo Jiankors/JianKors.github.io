@@ -5,7 +5,7 @@
 jQuery.noConflict();
 jQuery(document).ready(function(){
     var backToTopTxt = "▲", backToTopEle = jQuery('<div class="backToTop"></div>').appendTo(jQuery("body")).text(backToTopTxt).attr("title","Back to Top").click(function() {
-        jQuery("html, body").animate({ scrollTop: 50 }, 120);
+        jQuery("html, body").animate({ scrollTop: 0 }, 120);
     }), backToTopFun = function() {
         var st = jQuery(document).scrollTop(), winh = jQuery(window).height();
         (st > 200)? backToTopEle.show(): backToTopEle.hide();    
@@ -53,11 +53,11 @@ var BlogDirectory = {
             $sideBar.affix({
                 offset: {
                     top: function () {
-                        var offsetTop      = $sideBar.offset().bottom
+                        var offsetTop      = $sideBar.offset().bottom;
                         var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 10)
                         var navOuterHeight = jQuery('.bs-docs-bar-top').height()
 
-                        return (this.top = offsetTop - navOuterHeight - sideBarMargin)
+                        return (this.top = offsetTop - navOuterHeight - sideBarMargin + 50)
                     },
                     bottom: function () {
                         return (this.bottom = 0 - jQuery('.bs-docs-container').outerHeight(true))
