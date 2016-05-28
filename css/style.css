@@ -89,8 +89,6 @@
 /* By default it's not affixed in mobile views, so undo that */
 .bs-docs-sidebar.affix {
   position: static;
-  	padding-top: 65px; 
-  margin-top: -65px;
 }
 @media (min-width: 768px) {
   .bs-docs-sidebar {
