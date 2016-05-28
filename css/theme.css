@@ -4,6 +4,7 @@ body {
 }
 
 .copyright {
+	margin: auto;
     color: #ffffff;
 	text-align: center;
 	line-height: 14px;
