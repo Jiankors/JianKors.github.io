@@ -89,7 +89,6 @@
 /* By default it's not affixed in mobile views, so undo that */
 .bs-docs-sidebar.affix {
   position: static;
-  padding-top: 20px;
 }
 @media (min-width: 768px) {
   .bs-docs-sidebar {
@@ -99,7 +98,8 @@
 
 /* First level of nav */
 .bs-docs-sidenav {
-  margin-top: 20px;
+  padding-top: 80px;
+  margin-top: -45px;
   margin-bottom: 20px;
 }
 
