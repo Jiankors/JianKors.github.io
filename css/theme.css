@@ -4,14 +4,13 @@ body {
 }
 
 .copyright {
-	background-color:#fff;
     color: #ffffff;
+	text-align: center;
+	line-height: 14px;
 }
 
 .footer {
-	color: #ffffff;
-    text-align: center;
-	line-height: 14px;
+   
 }
 
 .footer a {
