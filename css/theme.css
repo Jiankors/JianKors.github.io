@@ -23,7 +23,9 @@ body {
 }
 
 .copyright {
-	background: #000000;
+	color: #ffffff;
+	margin-bottom:0;
+	line-height:30px;
 }
 
 .footer {
