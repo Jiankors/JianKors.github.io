@@ -6,8 +6,8 @@ body {
 .copyright {
 	background-color:#ccc;
     color: #ffffff;
-	position:relative;
 	text-align: center;
+	bottom:0;margin-bottom:0;
 }
 
 .footer {
