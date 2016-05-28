@@ -1,10 +1,10 @@
 # Jekyll configuration
 
-name: mthust's blog
+name: JianKors's blog
 description: learning and sharing interesting things
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://mthust.github.io
+url: http://jiankors.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -13,21 +13,21 @@ url: http://mthust.github.io
 baseurl: ''
 
 # This can be '' to hide the Github nav button
-github: 'mthust'
+github: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
-gaaccount: 'UA-58933023-1'
+gaaccount: ''
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: 'mthust'
+disqus: ''
 comments: true
 
 permalink: /:year/:month/:title
 paginate: 2
 
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
