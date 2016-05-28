@@ -6,6 +6,7 @@ body {
 .copyright {
     color: #ffffff;
 	text-align: center;
+	float:center;
 	margin-bottom:0;
 }
 
