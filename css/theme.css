@@ -9,7 +9,8 @@ body {
 }
 
 .footer {
-	
+	margin: 0, auto;
+	color: #ffffff;
     text-align: center;
 }
 
