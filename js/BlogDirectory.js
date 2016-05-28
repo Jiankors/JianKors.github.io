@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
     var backToTopTxt = "▲", backToTopEle = jQuery('<div class="backToTop"></div>').appendTo(jQuery("body")).text(backToTopTxt).attr("title","Back to Top").click(function() {
         jQuery("html, body").animate({ scrollTop: 0 }, 120);
     }), backToTopFun = function() {
-        var st = jQuery(document).scrollTop()+, winh = jQuery(window).height();
+        var st = jQuery(document).scrollTop(), winh = jQuery(window).height();
         (st > 200)? backToTopEle.show(): backToTopEle.hide();    
         //IE6下的定位
         if (!window.XMLHttpRequest) {
@@ -54,7 +54,7 @@ var BlogDirectory = {
                 offset: {
                     top: function () {
                         var offsetTop      = $sideBar.offset().bottom
-                        var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 50)
+                        var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 10)
                         var navOuterHeight = jQuery('.bs-docs-bar-top').height()
 
                         return (this.top = offsetTop - navOuterHeight - sideBarMargin)
