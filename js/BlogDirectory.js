@@ -60,7 +60,7 @@ var BlogDirectory = {
                         return (this.top = offsetTop - navOuterHeight - sideBarMargin)
                     },
                     bottom: function () {
-                        return (this.bottom = 0 - jQuery('.bs-docs-container').outerHeight(true)-20)
+                        return (this.bottom = 0 - jQuery('.bs-docs-container').outerHeight(true))
                     }
                 }
             })
@@ -147,5 +147,5 @@ jQuery(document).ready(function(){
         BlogDirectory.createBlogDirectory(jQuery("#sideNav"), jQuery(".bs-docs-container"));
 
         // caculate affixing
-        BlogDirectory.setSideNavAffixing();
+        //BlogDirectory.setSideNavAffixing();
 });
