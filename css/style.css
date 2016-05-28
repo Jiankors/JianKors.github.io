@@ -92,13 +92,14 @@
 }
 @media (min-width: 768px) {
   .bs-docs-sidebar {
+	  margin-top: 40px;
     padding-left: 20px;
   }
 }
 
 /* First level of nav */
 .bs-docs-sidenav {
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
