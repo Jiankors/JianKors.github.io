@@ -16,7 +16,7 @@ layout: default
 			{% for tg in post.tags %}
 			<a href="/tags.html#{{ tg }}">{{ tg }} </a> 
 			{% endfor %}
-			|
+			|</br>
 			Time：{{ post.date | date: "%Y-%m-%d" }}
 		</div>
 		{% if site.comments == true and post.comments == true and site.disqus != '' %}
