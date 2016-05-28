@@ -5,12 +5,11 @@ body {
 
 .copyright {
     color: #ffffff;
-	height: 100%;
-	line-height: 14px;
 }
 
 .footer {
    text-align: center;
+   line-height: 1em;
 }
 
 .footer a {
