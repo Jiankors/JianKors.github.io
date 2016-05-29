@@ -7,7 +7,6 @@
         <div class="col-md-7">
           <div class="article">
             <div class="well">
-			<a class="target-fix" ></a>
                 <h1><a href="{{ site.baseurl}}{{ page.url }}">[{{ page.date | date: "%Y-%m-%d" }}] {{ page.title }}</a></h1>
 				<div class="optgroup">
 					Categories：
@@ -27,6 +26,7 @@
             {% endif %}
 			
             <div class="post-content bs-docs-container">
+			<a class="target-fix" ></a>
 				{{ content }}
             </div>
             {% if page.comments %}
