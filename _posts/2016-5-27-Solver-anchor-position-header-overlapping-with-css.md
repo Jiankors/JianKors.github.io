@@ -39,7 +39,7 @@ comments: false
 
 然后，在css中设置样式：
 
-```
+```css
 /* 具体padding高度可以根据你导航栏的高度来设定 */
 .anchor{padding-top:50px;}
 ```
