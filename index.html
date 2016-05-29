@@ -18,6 +18,7 @@ layout: default
 			{% endfor %}
 			|
 			Time：{{ post.date | date: "%Y-%m-%d" }}
+			<br></br>
 		</div>
 		{% if site.comments == true and post.comments == true and site.disqus != '' %}
           <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
