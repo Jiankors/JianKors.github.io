@@ -34,8 +34,13 @@ future: true
 permalink: /:year/:month/:title
 paginate: 2
 
-highlighter: rouge
+#highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
+  use_coderay: true
+  syntax_highlighter: rouge
+
 gems: ['jekyll-paginate']
 
 #markdown: redcarpet
