@@ -20,7 +20,7 @@
 					{% endfor %}
 					|
 					Time：{{ page.date | date: "%Y-%m-%d" }}
-					</br>
+					<br/>
 				</div>
 			{% if site.comments == true and page.comments == true and site.disqus != '' %}
                 <p class="author"><a href="#disqus_thread">Comments</a></p>
@@ -45,7 +45,7 @@
               {% if page.previous %}
                 <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Older Post</a>
               {% endif %}
-			  </br>
+			  <br/>
 		  </div>
         </div>
 	    <div class="col-md-2 hidden-xs" role="complementary">
