@@ -6,7 +6,7 @@
     <h3>Recent Posts</h3>
     <ul>
         {% for post in site.posts limit:5 %}
-          <li><p><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></p></li>
+          <li style="line-height: 20px;"><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </div>
