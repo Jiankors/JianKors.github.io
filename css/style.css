@@ -285,7 +285,9 @@ body {
   margin-bottom: 0px;
 }
 
-
+hr {
+    border-top: 1px solid #aaa;
+}
 
 /*
  * Article Body part, most of them are generated in mardown.
