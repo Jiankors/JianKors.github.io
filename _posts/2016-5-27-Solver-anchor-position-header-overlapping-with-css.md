@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "使用CSS解决链接锚点定位偏移的代码"
+title:  "使用CSS解决链接锚点定位偏移的问题"
 date:   2016-5-27 09:59:45
 tags:	[Web Development, CSS ]
 categories: [Web Development]
 comments: false
 ---
 
-Compile Caffe with Visual Studio 2013 on Windows 7 x64, using Cuda 7.0, boost 1.57.0, OpenCV 2.4.11 and OpenBlas 0.2.14.  
-
-After succesfully build, you will get tools like *caffe.exe* and examples  like *convert_mnist_data.exe* under path *bin*, which can be used for Train-and-Test on the dataset *mnist*.
+在使用Github和Jekyll部署个人博客的时候，当增加树形目录（Table of content，TOC）时，会出现当点击TOC上的标题时，所跳转的位置并不是我们理想的位置，主要是因为Bootstarp的顶部包含一个导航条，锚点跳转的位置正好被导航条给遮挡住了一部分，从而导致在使用TOC的时候，有点强迫症的感觉。为此，花了很长的时间才解决，现在记录一下。 
 
 <!-- more -->
 
-## Prerequisites
+## 锚点定位偏移描述
