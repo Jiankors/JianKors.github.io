@@ -75,7 +75,7 @@ margin-top:-50px;
 ### 3.使用JS跳转来修正高度
 这种方法的主要思路就是每次点击TOC中的目录时，都相应地往下滚动一定的高度，
 
-```
+```js
 var shiftWindow = function() { scrollBy(0, -50) };
 if (location.hash) shiftWindow();
 window.addEventListener("hashchange", shiftWindow);
