@@ -33,9 +33,9 @@ comments: false
 
 在TOC脚本生成header的时候，为其添加一个div的class，
 
-```html
+~~~html
 <h1><a class="anchor" name="barlink">Bar</a></h1>
-```
+~~~
 
 然后，在css中设置样式：
 
