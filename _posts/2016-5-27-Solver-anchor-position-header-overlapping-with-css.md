@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2015-4-1-CSS解决链接锚点定位偏移的代码"
+title:  "使用CSS解决链接锚点定位偏移的代码"
 date:   2016-5-27 09:59:45
 tags:	[Web Development, CSS ]
 categories: [Web Development]
