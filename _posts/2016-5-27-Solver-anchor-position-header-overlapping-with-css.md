@@ -77,8 +77,11 @@ margin-top:-50px;
 
 ```
 var shiftWindow = function() { scrollBy(0, -50) };
-	if (location.hash) shiftWindow();
-	window.addEventListener("hashchange", shiftWindow);
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
 ```
 
 这种方法，虽然也能解决问题，也在本博客上加以验证，但是稳定性欠佳，有时甚至无法实现正确的跳转。
+
+## 修改结果截图
+![](../../../res/201605/2016052901.png)
