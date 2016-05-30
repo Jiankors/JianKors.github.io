@@ -85,3 +85,4 @@ window.addEventListener("hashchange", shiftWindow);
 
 ## 修改结果截图
 ![](../../../res/201605/2016052901.png width=80%)
+<img src="../../../res/201605/2016052901.png" alt="Drawing" width="90%" />
